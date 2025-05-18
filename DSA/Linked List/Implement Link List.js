@@ -41,7 +41,9 @@ class LinkList {
 
         if(currNode){
             if (condition) {
-                
+            this.tail = currNode;
+            
+
             }
             currNode.next = currNode.next.next;
         }
